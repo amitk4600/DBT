@@ -1,0 +1,15 @@
+create table DEPT1
+(
+DEPTNO int(2),
+DNAME varchar(15),
+LOC varchar(10)
+
+);
+
+insert into DEPT1 values( 10, 'ACCOUNTING', 'NEW YORK');
+insert into DEPT1 values(20,'RESEARCH' ,'DALLAS');
+insert into DEPT1 values(30, 'SALES' ,'CHICAGO');
+insert into DEPT1 values(40, 'OPERATIONS', 'BOSTON');
+show databases;
+use hansi;
+select * from DEPT1;
